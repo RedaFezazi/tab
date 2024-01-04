@@ -1,5 +1,5 @@
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
-const Job = ({ company, dates, duties, id, order, title }) => {
+const Job = ({ company, dates, duties, id, order, title, theId }) => {
   return (
     <article>
       <h1 className="title">{title}</h1>
